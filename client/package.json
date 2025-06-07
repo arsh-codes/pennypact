@@ -2,7 +2,6 @@
   "name": "pennypact",
   "version": "0.0.0",
   "private": true,
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "homepage": "https://github.com/arsh-codes/pennypact#readme",
   "bugs": {
     "url": "https://github.com/arsh-codes/pennypact/issues"
@@ -23,8 +22,10 @@
     "start": "concurrently -n \"client,server\" -c \"blue,green\" \"yarn dev\" \"cd ../server && yarn dev\""
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/vite": "^4.1.8",
     "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "concurrently": "^9.1.2",
@@ -32,9 +33,11 @@
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
     "react-router": "^7.6.1",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "zod": "^3.25.36"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

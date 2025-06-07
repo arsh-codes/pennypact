@@ -32,7 +32,7 @@ app.use("/api/auth", authRouter);
 
 // Sample root route
 app.get("/", (req, res) => {
-    res.send("🌟 SpendWise Server is Running");
+    res.send("🌟 PennyPact server is Running");
 });
 
 // Connect to MongoDB and start server
